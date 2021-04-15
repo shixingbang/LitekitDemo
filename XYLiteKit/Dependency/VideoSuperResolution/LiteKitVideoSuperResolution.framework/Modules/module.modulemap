@@ -1,0 +1,11 @@
+framework module LiteKitVideoSuperResolution {
+  umbrella header "LiteKitVideoSuperResolution.h"
+
+  export *
+  module * { export * }
+}
+
+module LiteKitVideoSuperResolution.Swift {
+    header "LiteKitVideoSuperResolution-Swift.h"
+    requires objc
+}
